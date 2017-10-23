@@ -1,0 +1,4 @@
+def nabeatsu(v):
+    if (v % 3) == 0:
+        print("アホ")
+        
