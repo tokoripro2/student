@@ -29,10 +29,10 @@ class Person:
     
 AddressBook abook = AddressBook()
 Person yumoto = Person()
-yumoto.firstname = "みちたか"
-yumoto.lastname = "ゆもと"
+yumoto.firstname = "ともき"
+yumoto.lastname = "やの"
 abook.add(yumoto)
 
 Person tokuda = Person()
-tokuda.firstname = "あおい"
-Person.lastname = "とくだ"
+tokuda.firstname = "ひろゆき"
+Person.lastname = "はまぐち"
