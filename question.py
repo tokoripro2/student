@@ -1,3 +1,7 @@
+
+
+#問２
+
 question1 = "パタトクカシーー"
 answer = list(question1)
 
@@ -10,7 +14,7 @@ for i in range(len(answer)):
         else:
             print(str(answer[i]))
 
-
+#問３
 
 ques3_1 = "パトカー"
 ques3_2 = "タクシー"
@@ -23,3 +27,13 @@ answer = ""
 for i in range(4):
     answer = answer + str(ques3_1_list[i]) + str(ques3_2_list[i])
 print(str(answer))
+
+#問４
+
+word = "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
+word_list = word.replace(',', '').replace('.', '').split(" ")
+#print(word_list)
+ans = ""
+for i in range(len(word_list)):
+    ans = ans + str(len(word_list[i]))# , end=''
+print(ans)
