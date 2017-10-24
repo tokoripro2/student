@@ -14,7 +14,7 @@ class AddressBook:
     
     def search(self,k):
         for p in self.person_list:
-            k in p.firstname or k in p.lastname:
+            if k in p.firstname or k in p.lastname:
                 print(p.lastname + " " + p.firstname)
             
 
