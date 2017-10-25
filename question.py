@@ -1,6 +1,9 @@
+#問０
 
+string = "stressed"
+print(string[::-1])
 
-#問２
+#問１
 
 question1 = "パタトクカシーー"
 answer = list(question1)
@@ -9,12 +12,12 @@ for i in range(len(answer)):
     #print(len(answer))
     #print(i)
     if not (i + 1) % 2 == 0:
-        if not (i + 2) == int(len(answer)):
-            print(str(answer[i]), end='')
+        if not (i + 2) == len(answer):
+            print(answer[i], end = '')
         else:
-            print(str(answer[i]))
+            print(answer[i])
 
-#問３
+#問２
 
 ques3_1 = "パトカー"
 ques3_2 = "タクシー"
@@ -28,7 +31,7 @@ for i in range(4):
     answer = answer + str(ques3_1_list[i]) + str(ques3_2_list[i])
 print(str(answer))
 
-#問４
+#問３
 
 word = "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
 word_list = word.replace(',', '').replace('.', '').split(" ")
