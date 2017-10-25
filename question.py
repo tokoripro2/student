@@ -40,3 +40,14 @@ ans = ""
 for i in range(len(word_list)):
     ans = ans + str(len(word_list[i]))# , end=''
 print(ans)
+
+
+#問４
+
+word = "Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
+
+word_list = word.split()
+#print(word_list[2][0:1])
+for i in range(len(word_list)):    
+    if i in word_list:#1 or i ==1 or i ==5 or i== 6 or i == 7 or i 8, 9, 15, 16, 19:
+        print("ok")
