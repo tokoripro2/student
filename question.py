@@ -52,15 +52,16 @@ print(ans)
 # number_list = number.split()
 # print(word_list)
 # print(number_list)
-# word_dict = ""
+# word_dict = []
 # for w in word_list:    
 #     if w in number_list:      #1 or i ==1 or i ==5 or i== 6 or i == 7 or i 8, 9, 15, 16, 19:
 #         #print(w)
-#         word_dict = word_list[w][0:0]
+#         word_dict.append(word_list[w][0:0])
 #     else:
-#         print(word_list[w][0:1])
+#         word_dict.append(word_list[w][0:1])
+#print(word_dict)
 
-# 私の回答例
+# 回答例
 # 改行を文字列として認識させずに使いたいときは \ を文末に入れてから改行するといいです
 word = "Hi He Lied Because Boron Could Not Oxidize Fluorine.\
  New Nations Might Also Sign Peace Security Clause. Arthur King Can."
