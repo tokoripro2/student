@@ -140,3 +140,19 @@ print list.index("B")     # 1
 例
 'test'.upper() #=> TEST
 'TEST'.lower() #=> test
+
+
+
+
+# 改行を文字列として認識させずに使いたいときは \ を文末に入れてから改行するといいです
+word = "Hi He Lied Because Boron Could Not Oxidize Fluorine.\
+ New Nations Might Also Sign Peace Security Clause. Arthur King Can."
+ 
+ 
+ 
+ 絶対値について
+ 「abs()」を使って絶対値を求めることが出来ます。
+
+a = -10
+    a = abs(a)
+    print(a)
