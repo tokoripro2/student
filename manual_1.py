@@ -129,3 +129,14 @@ print list.index("B")     # 1
 
 指定した値が存在しない場合には「ValueError」が発生します。
 インデックスは"0"から始まる為何個目の場合は＋１が必要
+
+
+
+
+文字列を大文字/小文字に変換する
+文字列.upper()
+文字列.lower()
+
+例
+'test'.upper() #=> TEST
+'TEST'.lower() #=> test
