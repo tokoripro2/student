@@ -156,3 +156,8 @@ word = "Hi He Lied Because Boron Could Not Oxidize Fluorine.\
 a = -10
     a = abs(a)
     print(a)
+    
+    
+pipインストールできな時は    
+sudo
+を最初につける
