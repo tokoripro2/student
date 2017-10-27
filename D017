@@ -1,0 +1,30 @@
+input_list = []
+#print(input_list)
+for i in range(5):
+    tem_list = int(input())
+    input_list.append(tem_list)
+#print(input_list)
+
+
+# ans = list(map(int,input_list))
+print(max(ans))
+print(min(ans))
+
+
+
+
+
+
+# input_lines1 = input()
+# input_lines2 = input()
+# input_lines3 = input()
+# input_lines4 = input()
+# input_lines5 = input()
+# total_input = input_lines1 + " " + input_lines2 + " " + input_lines3+ " " + input_lines4+ " " + input_lines5
+# total_list = total_input.split()
+# #print(total_list)
+# a = list(map(int,total_list))
+# #print(a)
+
+# print(max(a)) # 5
+# print(min(a)) # 1
