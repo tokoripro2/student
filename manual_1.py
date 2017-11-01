@@ -161,3 +161,27 @@ a = -10
 pipインストールできな時は    
 sudo
 を最初につける
+
+
+
+
+
+リスト内包表記
+基本構文
+[counter for counter in iterator]
+僕は先に [i for i in] だけ書いてから修飾することが多いです。
+
+extension_1と同等のリストを内包表記で生成する場合は
+
+comprehension_1= [i for i in range(10)]
+comprehension_1
+#>>> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+例
+
+extension_1 = []
+for i in range(10000):
+    extension_1.append(i)
+#>>> 100 loops, best of 3: 3.37 ms per loop
+%%timeit
+comprehension_1= [i for i in range(10000)]
